@@ -1,0 +1,14 @@
+update this to make it work aws works with firebase
+service: my-service
+provider:
+  name: aws
+  runtime: nodejs14.x
+  stage: dev
+  region: us-east-1
+functions:
+  graphql:
+    handler: handler.handler
+    events:
+      - http:
+          path: graphql
+          method: any

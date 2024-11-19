@@ -1,0 +1,28 @@
+{
+  "name": "spp-app-data-hub",
+  "version": "1.0.0",
+  "description": "Sports Passports Data Hub for SPP React Apps ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daradona Dam",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/node": "^8.18.0",
+    "@sentry/profiling-node": "^8.18.0",
+    "apollo-server-express": "^3.13.0",
+    "apollo-server-lambda": "^3.13.0",
+    "axios": "^1.7.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "firebase-admin": "^12.2.0",
+    "graphql": "^16.9.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.10.0",
+    "serverless-http": "^3.2.0"
+  }
+}
